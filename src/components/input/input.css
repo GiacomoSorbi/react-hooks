@@ -1,0 +1,13 @@
+label.input {
+  position: relative;
+  display: block;
+  font-weight: bold;
+  padding: 5px 0 2px;
+}
+
+label.required:before {
+  content: "*";
+  color: red;
+  position: absolute;
+  left: -0.5em;
+}

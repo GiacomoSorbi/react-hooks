@@ -1,0 +1,29 @@
+form {
+  max-width: 0;
+  background: grey;
+  margin: 20px auto;
+  padding: 1%;
+  opacity: 0;
+  max-width: 0;
+  transition: 0.3s opacity, 0.3s max-width;
+}
+
+form.active {
+  opacity: 1;
+  max-width: 80vw;
+  transition: 0.2s opacity, 0.2s max-width;
+}
+
+.multi-form-container {
+  position: relative;
+  width: 80vw;
+  margin: 20px auto;
+  padding: 1%;
+}
+
+.multi-form-container form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80vw;
+}

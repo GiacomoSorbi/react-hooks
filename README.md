@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Intro
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) with the `--use-pnp` option.
+
+To enable hooks (currently in alpha), first thing you need to add is:
+
+```
+npm install -S react@16.7.0-alpha.2 react-dom@16.7.0-alpha.2
+```
 
 ## Available Scripts
 
