@@ -8,6 +8,10 @@ To enable hooks (currently in alpha), first thing you need to add is:
 npm install -S react@16.7.0-alpha.2 react-dom@16.7.0-alpha.2
 ```
 
+### Important
+
+Use `yarn` instead of `npm i` to install your dependencies if you want all the pnp magic!
+
 ## Available Scripts
 
 In the project directory, you can run:
